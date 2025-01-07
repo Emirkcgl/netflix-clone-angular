@@ -11,19 +11,16 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#prerequests">Prerequests</a>
+      <a href="#screenshots">Screenshots</a>
     </li>
     <li>
-      <a href="#screenshots">Screenshots</a>
+      <a href="#prerequests">Prerequests</a>
     </li>
     <li>
       <a href="#which-features-this-project-deals-with">Which Features This Project Deals With</a>
     </li>
     <li>
       <a href="#third-party-libraries-used-except-for-angular">Third Party Libraries Used Except for Angular</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
     </li>
   </ol>
 </details>
@@ -71,7 +68,7 @@
 | **PostCSS**      | For transforming CSS with modern plugins.                            |
 | **Autoprefixer** | For adding vendor prefixes to CSS for better browser compatibility.  |
 
-## 🚀 Getting Started
+## 🚀 Getting Started <a name="getting-started"></a>
 
 1. Clone this repository: `git clone https://github.com/your-github-username/netflix-clone-angular.git`
 2. Navigate to the project directory: `cd netflix-clone-angular`
