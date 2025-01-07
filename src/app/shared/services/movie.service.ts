@@ -1,11 +1,12 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class MovieService {
-  private apiKey = '5aa018413fe176cec83d597dd38b3771';
+  private apiKey = environment.apiKey;
 
   private params = {
     api_key: this.apiKey,
