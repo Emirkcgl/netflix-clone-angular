@@ -33,18 +33,12 @@
 ## Screenshots
 
 <div align="center">
-  <figure>
-    <img src="src/assets/3.png" alt="Homepage" width="80%" style="border: 1px solid #ddd; border-radius: 5px; padding: 5px;">
-    <figcaption>Home Page</figcaption>
-  </figure>
-  <figure>
-    <img src="src/assets/1.jpeg" alt="Movie Details" width="80%" style="border: 1px solid #ddd; border-radius: 5px; padding: 5px;">
-    <figcaption>Mini Portal</figcaption>
-  </figure>
-  <figure>
-    <img src="src/assets/2.jpeg" alt="Responsive Design" width="80%" style="border: 1px solid #ddd; border-radius: 5px; padding: 5px;">
-    <figcaption>Grid Genre Page</figcaption>
-  </figure>
+  <img src="src/assets/3.png" alt="Homepage" width="100%" height="100%">
+  <p align="center">Home Page</p>
+  <img src="src/assets/1.jpeg" alt="Movie Details" width="100%" height="100%">
+  <p align="center">Mini Portal</p>
+  <img src="src/assets/2.jpeg" alt="Responsive Design" width="100%" height="100%">
+  <p align="center">Grid Genre Page</p>
 </div>
 
 ## Prerequests
