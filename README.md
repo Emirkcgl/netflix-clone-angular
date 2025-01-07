@@ -33,12 +33,18 @@
 ## Screenshots
 
 <div align="center">
-  <img src="src/assets/3.png" alt="Homepage" width="100%" height="100%">
-  <p align="center">Home Page</p>
-  <img src="src/assets/1.jpeg" alt="Movie Details" width="100%" height="100%">
-  <p align="center">Mini Portal</p>
-  <img src="src/assets/2.jpeg" alt="Responsive Design" width="100%" height="100%">
-  <p align="center">Grid Genre Page</p>
+  <figure>
+    <img src="src/assets/3.png" alt="Homepage" width="80%" style="border: 1px solid #ddd; border-radius: 5px; padding: 5px;">
+    <figcaption>Home Page</figcaption>
+  </figure>
+  <figure>
+    <img src="src/assets/1.jpeg" alt="Movie Details" width="80%" style="border: 1px solid #ddd; border-radius: 5px; padding: 5px;">
+    <figcaption>Mini Portal</figcaption>
+  </figure>
+  <figure>
+    <img src="src/assets/2.jpeg" alt="Responsive Design" width="80%" style="border: 1px solid #ddd; border-radius: 5px; padding: 5px;">
+    <figcaption>Grid Genre Page</figcaption>
+  </figure>
 </div>
 
 ## Prerequests
@@ -51,68 +57,27 @@
 
 ## Which Features This Project Deals With
 
-- **RxJS and Observables**
-
-  - Combining multiple API calls using `forkJoin` and processing them with `map` to handle complex data flow.
-
-- **Service and Dependency Injection (DI)**
-
-  - Managing API requests and data retrieval using `MovieService`.
-  - Injecting services like `MovieService` and `ScrollService` into components for modular and testable design.
-
-- **Component Communication**
-
-  - Leveraging `@Input` to pass data from parent to child components (`MovieCarouselComponent`).
-  - Utilizing `@ViewChild` for direct interaction with DOM elements and third-party libraries (`Swiper.js`).
-
-- **Usage of Directives**
-
-  - Applying Angular’s built-in directives such as `*ngFor` and `*ngIf` for dynamic content rendering.
-
-- **Pipes**
-
-  - Formatting data with custom pipes:
-    - **`DescriptionPipe`**: Trims long descriptions to a specified length.
-    - **`ImagePipe`**: Constructs dynamic URLs for images fetched from the TMDB API.
-
-- **REST API Integration**
-
-  - Fetching and rendering movie and TV show data from TMDB API through methods in `MovieService`.
-
-- **Carousel and Animations**
-
-  - Creating interactive carousels for movies and TV shows using `Swiper.js`.
-  - Adding visual effects with Angular animations like fade-in transitions.
-
-- **Reusable Components**
-  - Designing flexible components such as `MovieCarouselComponent` for displaying various types of media content.
+- 🚀 **RxJS and Observables**: Combining multiple API calls using `forkJoin` and processing them with `map` to handle complex data flow.
+- 🧩 **Service and Dependency Injection (DI)**: Managing API requests and data retrieval using `MovieService` and injecting services like `MovieService` and `ScrollService` into components for modular and testable design.
+- 📦 **Component Communication**: Leveraging `@Input` to pass data from parent to child components (`MovieCarouselComponent`) and utilizing `@ViewChild` for direct interaction with DOM elements and third-party libraries (`Swiper.js`).
+- 🛠️ **Usage of Directives**: Applying Angular’s built-in directives such as `*ngFor` and `*ngIf` for dynamic content rendering.
+- ✨ **Pipes**: Formatting data with custom pipes like `DescriptionPipe` (trims long descriptions) and `ImagePipe` (constructs dynamic URLs for images from TMDB API).
+- 🌐 **REST API Integration**: Fetching and rendering movie and TV show data from TMDB API through methods in `MovieService`.
+- 🎥 **Carousel and Animations**: Creating interactive carousels for movies and TV shows using `Swiper.js` and adding visual effects with Angular animations like fade-in transitions.
+- 🧩 **Reusable Components**: Designing flexible components such as `MovieCarouselComponent` for displaying various types of media content.
 
 ## Third Party Libraries Used Except for Angular
 
-- **RxJS**
+| Library          | Description                                                          |
+| ---------------- | -------------------------------------------------------------------- |
+| **RxJS**         | For managing data streams and event handling effectively in Angular. |
+| **Swiper.js**    | For responsive carousels displaying movie visuals.                   |
+| **Tailwind CSS** | For responsive and modern design.                                    |
+| **Zone.js**      | For managing Angular's Change Detection mechanism.                   |
+| **PostCSS**      | For transforming CSS with modern plugins.                            |
+| **Autoprefixer** | For adding vendor prefixes to CSS for better browser compatibility.  |
 
-  - A library for reactive programming, used to manage data streams and event handling effectively in Angular projects.
-
-- **Swiper.js**
-
-  - A library for creating responsive and user-friendly carousel/slider components, used to display movie and TV show visuals in a loop.
-
-- **Tailwind CSS**
-
-  - A modern CSS framework used to accelerate styling and provide a responsive and flexible design.
-
-- **Zone.js**
-
-  - A library that manages Angular's Change Detection mechanism, essential for Angular's core functionality.
-
-- **PostCSS**
-
-  - A tool for transforming CSS with plugins, ensuring compatibility with modern browsers.
-
-- **Autoprefixer**
-  - A PostCSS plugin used to add vendor prefixes to CSS rules for cross-browser compatibility.
-
-## Getting Started
+## 🚀 Getting Started
 
 1. Clone this repository: `git clone https://github.com/your-github-username/netflix-clone-angular.git`
 2. Navigate to the project directory: `cd netflix-clone-angular`
