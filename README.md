@@ -33,11 +33,11 @@
 ## Screenshots
 
 <div align="center">
-  <img src="..//netflix-clone/src/assets/3.png" alt="Homepage" width="100%" height="100%">
+  <img src="src/assets/3.png" alt="Homepage" width="100%" height="100%">
   <p align="center">Home Page</p>
-  <img src="..//netflix-clone/src/assets/1.jpeg" alt="Movie Details" width="100%" height="100%">
+  <img src="src/assets/1.jpeg" alt="Movie Details" width="100%" height="100%">
   <p align="center">Mini Portal</p>
-  <img src="..//netflix-clone/src/assets/2.jpeg" alt="Responsive Design" width="100%" height="100%">
+  <img src="src/assets/2.jpeg" alt="Responsive Design" width="100%" height="100%">
   <p align="center">Grid Genre Page</p>
 </div>
 
