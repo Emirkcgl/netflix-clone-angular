@@ -1,6 +1,6 @@
 <div align="center">
   <a href="http://netflix-clone-angular.vercel.app/">
-    <img src="..//netflix-clone/src/assets/pngwing.com.png" alt="Logo" width="100" height="32">
+    <img src="src/assets/pngwing.com.png" alt="Logo" width="100" height="32">
   </a>
 
   <h3 align="center">Netflix Clone</h3>
